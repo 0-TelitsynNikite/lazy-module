@@ -1,1 +1,10 @@
+<nav>
+  <a routerLink="/admin/list">Admin List</a>
+  <a routerLink="/admin/login">Admin Login</a>
+  <a routerLink="/catalog/login">Catalog Login</a>
+  <a routerLink="/catalog/list">Catalog List</a>
+</nav>
+
 <div [@clickedDiv]="clickedDivStart" (click)="changeState()"></div>
+
+<router-outlet></router-outlet>
