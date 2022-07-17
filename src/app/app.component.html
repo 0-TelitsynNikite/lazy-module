@@ -1,9 +1,1 @@
-<h1>Lazy module</h1>
-<h2>Admin links</h2>
-
-<ul>
-  <li><a routerLink="admin/login">Login</a></li>
-  <li><a routerLink="admin/list">List </a></li>
-</ul>
-
-<router-outlet></router-outlet>
+<div [@clickedDiv]="clickedDivStart" (click)="changeState()"></div>

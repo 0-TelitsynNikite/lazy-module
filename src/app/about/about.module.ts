@@ -14,4 +14,4 @@ import { ListItemComponent } from './list-item/list-item.component';
     CommonModule
   ]
 })
-export class AdminModule { }
+export class AboutModule { }
