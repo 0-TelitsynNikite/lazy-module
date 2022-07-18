@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { AdminRoutingModule } from './admin-routing.module';
 import { LoginComponent } from './login/login.component';
 import { ListComponent } from './list/list.component';
+import {TranslateModule} from "@ngx-translate/core";
 
 
 @NgModule({
@@ -11,9 +12,10 @@ import { ListComponent } from './list/list.component';
     LoginComponent,
     ListComponent
   ],
-  imports: [
-    CommonModule,
-    AdminRoutingModule
-  ]
+    imports: [
+        CommonModule,
+        AdminRoutingModule,
+        TranslateModule
+    ]
 })
 export class AdminModule { }
